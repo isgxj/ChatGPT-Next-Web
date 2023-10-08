@@ -317,3 +317,6 @@ If you want to add a new translation, read this [document](./docs/translation.md
 ## LICENSE
 
 [MIT](https://opensource.org/license/mit/)
+
+运行docker
+docker run -d -p 3004:3000 -e OPENAI_API_KEY= -e CODE= -e BASE_URL=https://api.openai-proxy.com/ -e HIDE_USER_API_KEY=1 chatgpt-next-web
